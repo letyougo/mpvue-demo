@@ -1,0 +1,11 @@
+<template name="2b372c2c">
+  <view class="_div data-v-0d53d50b square" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-0d53d50b user-item" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+      <view class="_div data-v-0d53d50b user-logo"> A </view>
+      <view class="_div data-v-0d53d50b user-info">
+        <view class="_p data-v-0d53d50b">天蝎座</view> <label class="_span data-v-0d53d50b">我很好看</label>
+      </view>
+      <view class="_div data-v-0d53d50b user-age">24岁</view>
+    </view>
+  </view>
+</template>

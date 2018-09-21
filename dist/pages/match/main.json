@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "匹配",
+  "usingComponents": {
+    "i-radio-group": "/iview/radio-group/index",
+    "i-radio": "/iview/radio/index",
+    "i-input": "/iview/input/index",
+    "i-panel":"/iview/panel/index",
+    "i-button": "/iview/button/index"
+  }
+}

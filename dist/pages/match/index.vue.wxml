@@ -1,0 +1,20 @@
+<template name="6410c71d">
+  <view class="_div data-v-f1ff9b84 container" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">
+    <i-panel title="你喜欢吃什么水果？" class="_i-panel data-v-f1ff9b84">
+      <i-radio-group current="{{current.fruit}}" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_i-radio-group data-v-f1ff9b84">
+        <i-radio position="{{position}}" wx:key="item.id" key="{{item.id}}" value="{{item.name}}" wx:for="{{list.fruit}}" wx:for-index="index" wx:for-item="item" class="_i-radio data-v-f1ff9b84"></i-radio>
+      </i-radio-group>
+    </i-panel>
+    <i-panel title="你喜欢什么动物？" class="_i-panel data-v-f1ff9b84">
+      <i-radio-group current="{{current.animal}}" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_i-radio-group data-v-f1ff9b84">
+        <i-radio position="{{position}}" wx:key="item.id" key="{{item.id}}" value="{{item.name}}" wx:for="{{list.animal}}" wx:for-index="index" wx:for-item="item" class="_i-radio data-v-f1ff9b84"></i-radio>
+      </i-radio-group>
+    </i-panel>
+    <i-panel title="你车是什么样的？" class="_i-panel data-v-f1ff9b84">
+      <i-radio-group current="{{current.car}}" bindchange="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_i-radio-group data-v-f1ff9b84">
+        <i-radio position="{{position}}" wx:key="item.id" key="{{item.id}}" value="{{item.name}}" wx:for="{{list.car}}" wx:for-index="index" wx:for-item="item" class="_i-radio data-v-f1ff9b84"></i-radio>
+      </i-radio-group>
+    </i-panel>
+    <i-button type="primary" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_i-button data-v-f1ff9b84">开始匹配</i-button>
+  </view>
+</template>

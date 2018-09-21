@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "广场2",
+  "enablePullDownRefresh":true,
+  "usingComponents": {
+    "i-button": "/iview/button/index",
+    "i-cell-group": "/iview/cell-group/index",
+    "i-cell": "/iview/cell/index"
+  }
+}
