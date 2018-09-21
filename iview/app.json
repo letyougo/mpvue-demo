@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/match/main",
+    "pages/my/main",
+    "pages/logs/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#999999",
+    "selectedColor":"333333",
+    "backgroundColor":"#ffffff",
+    "borderTopStyle":"1rpx solid rgba(0,0,0,0.05)",
+    "list":[
+      {
+        "pagePath":"pages/index/main",
+        "text":"广场",
+        "iconPath": "/static/imgs/home.png",
+        "selectedIconPath": "/static/imgs/home-dark.png"
+      },
+      {
+        "pagePath":"pages/match/main",
+        "text":"匹配",
+        "iconPath": "/static/imgs/match.png",
+        "selectedIconPath": "/static/imgs/match-dark.png"
+      },
+      {
+        "pagePath":"pages/my/main",
+        "text":"我的",
+        "iconPath": "/static/imgs/profile.png",
+        "selectedIconPath": "/static/imgs/profile-dark.png"
+      }
+    ]
+  }
+}
